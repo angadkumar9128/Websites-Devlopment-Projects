@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* background-image: url(""); */
+}
+
+.music-player {
+    margin: 30px auto;
+    max-width: fit-content;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+.playlist li {
+    cursor: pointer;
+}
+
+.metadata {
+    margin-top: 20px;
+}
+
+.metadata img {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    width: 100%;
+}

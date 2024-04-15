@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("rainy-day-raining.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.music-player {
+    margin: 30px auto;
+    max-width:fit-content;
+    padding: 20px;
+    border: 2px  aqua;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    background-color:aqua;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+.playlist li {
+    cursor: pointer;
+}
+
+.metadata {
+    margin-top: 20px;
+}
+
+.metadata img {
+    width: 180px;
+    height: 180px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+button{
+    background-color: blue;
+    color: white;
+}
+

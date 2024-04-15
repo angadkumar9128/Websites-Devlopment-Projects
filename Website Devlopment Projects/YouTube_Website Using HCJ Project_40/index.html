@@ -1,0 +1,720 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Material Icons -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Clone</title>
+</head>
+
+<body>
+    <!-- Header Starts -->
+    <div class="header">
+        <div class="header__left">
+            <i id="menu" class="material-icons">menu</i>
+            <img src="YouTube-Logo.wine.svg" alt="" />
+        </div>
+
+        <div class="header__search">
+            <form action="">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search" />
+                <button style="background-color: #faf5f5; color: black;"><i class="material-icons">search</i></button>
+            </form>
+        </div>
+
+        <div class="header__icons">
+            <i class="material-icons display-this">search</i>
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+        </div>
+    </div>
+    <!-- Header Ends -->
+
+
+    <!-- Main Body Starts -->
+    <div class="mainBody">
+        <!-- Sidebar Starts -->
+        <div class="sidebar">
+            <div class="sidebar__categories">
+                <div class="sidebar__category">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="sidebar__category">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </div>
+                <div class="sidebar__category">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subcriptions</span>
+                </div>
+            </div>
+            <hr />
+            <div class="sidebar__categories">
+                <div class="sidebar__category">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </div>
+                <div class="sidebar__category">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </div>
+                <div class="sidebar__category">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </div>
+                <div class="sidebar__category">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </div>
+                <div class="sidebar__category">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <!-- Sidebar Ends -->
+
+
+        <!-- Videos Section -->
+        <div class="videos">
+
+            <div class="button-container">
+                <button>All</button>
+                <button>Live News</button>
+                <button>Mixes</button>
+                <button>Programming</button>
+                <button>Deep learning</button>
+                <button>Computer Science</button>
+                <button>Music</button>
+                <button>Music</button>
+                <button>Music</button>
+                <button>Tanil Cinema</button>
+                <button>Recently uploaded</button>
+                <button>Watched</button>
+                <button>New to you</button>
+            </div>
+
+            <div class="videos__container">
+                <!-- Single Video starts -->
+                <div class="video">
+                    <div class="video__thumbnail">
+                        <iframe id="iframe" src="https://www.youtube.com/embed/eRluimymBGg?autoplay=1&mute=1"
+                            title="Sarfira Khiladi (HD) - Romantic Full Movie | Vishnu Vishal, Catherine Tresa"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="unnamed.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Sarfira Khiladi (HD) - Romantic Full Movie | Vishnu Vishal, Catherine Tresa
+                            </h3>
+                            <a href="">AD-WISE MEDIA ACTION MOVIEPLEX </a>
+                            <span>10M Views • 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Video Ends -->
+
+                <!-- Single Video starts -->
+                <div class="video">
+                    <div class="video__thumbnail">
+                        <iframe id="iframe" src="https://www.youtube.com/embed/JkeiEYkLEvM?autoplay=1&mute=1"
+                            title="Tutorial 2- How does Neural Network Work" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen autoplay=1&mute=1></iframe>
+                    </div>
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="channels4_profile.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>Tutorial 2- How does Neural Network Work</h3>
+                            <a href="https://www.youtube.com/@krishnaik06"> Krish Naik</a>
+                            <span>194k Views • 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Video Ends -->
+
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                        <iframe id="iframe" src="https://www.youtube.com/embed/F50EmsabWLc?autoplay=1&mute=1"
+                            title="Intelligent Khiladi Hindi Dubbed Movie | Latest Hindi Dubbed Movie | Adivi Sesh, Sobhita Dhulipala"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="Line.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>Intelligent Khiladi Hindi Dubbed Movie | Latest Hindi Dubbed Movie | Adivi Sesh, Sobhita
+                                Dhulipala</h3>
+                            <a href="https://www.youtube.com/@LineFilms-mx5ji">
+                                Line Films</a>
+                            <span>976k Views • 1 Month Ago</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                        <iframe id="iframe" src="https://www.youtube.com/embed/7YH9V6sIhPo?autoplay=1&mute=1"
+                            title="Ekkadiki (4K ULTRa HD) Telugu Superhit Hindi Dubbed Movie | Nikhil Siddharth, Hebah Patel"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video__details">
+                        <div class="author">
+                            <a href="https://www.youtube.com/@LineFilms-mx5ji"><img src="damdar .jpg"></a>
+                        </div>
+                        <div class="title">
+                            <h3>Ekkadiki (4K ULTRa HD) Telugu Superhit Hindi Dubbed Movie | Nikhil Siddharth, HebahPatel
+                            </h3>
+                            <a href="https://www.youtube.com/@DumdaarSouthMovies">
+                                दमदार साउथ मूव्हीस
+                            </a>
+                            <span>58M • 8 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                        <iframe id="iframe" src="https://www.youtube.com/embed/7YH9V6sIhPo?autoplay=1&mute=1"
+                            title="Ekkadiki (4K ULTRa HD) Telugu Superhit Hindi Dubbed Movie | Nikhil Siddharth, Hebah Patel"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video__details">
+                        <div class="author">
+                            <a href="https://www.youtube.com/@LineFilms-mx5ji"><img src="damdar .jpg"></a>
+                        </div>
+                        <div class="title">
+                            <h3>Ekkadiki (4K ULTRa HD) Telugu Superhit Hindi Dubbed Movie | Nikhil Siddharth, HebahPatel
+                            </h3>
+                            <a href="#">
+                                दमदार साउथ मूव्हीस
+                            </a>
+                            <span>58M • 8 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                        <iframe id="iframe" src="https://www.youtube.com/embed/46cXFUzR9XM"
+                            title="Bella Ciao Full Song | La Casa De Papel | Money Heist | Netflix India"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwnh53ZRIGnyzC28QrfuggCINb3cfNbNWo4Uc6qR9=s48-c-k-c0x00ffffff-no-rj"
+                                alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>Bella Ciao Full Song | La Casa De Papel | Money Heist | Netflix India</h3>
+                            <a href="">Netflix</a>
+                            <span>10M Views • 11 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="videos__container">
+                    <!-- Single Video starts -->
+                    <div class="video">
+                        <div class="video__thumbnail">
+                            <iframe id="iframe" src="https://www.youtube.com/embed/ao6X3-tjMOw?autoplay=1&mute=1"
+                                title="Sarfira Khiladi (HD) - Romantic Full Movie | Vishnu Vishal, Catherine Tresa"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="video__details">
+                            <div class="author">
+                                <img src="unnamed.jpg" alt="" />
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    Sarfira Khiladi (HD) - Romantic Full Movie | Vishnu Vishal, Catherine Tresa
+                                </h3>
+                                <a href="">AD-WISE MEDIA ACTION MOVIEPLEX </a>
+                                <span>10M Views • 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video__thumbnail">
+                            <img src="https://img.youtube.com/vi/3PHXvlpOkf4/maxresdefault.jpg" alt="" />
+                        </div>
+                        <div class="video__details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s48-c-k-c0x00ffffff-no-rj"
+                                    alt="" />
+                            </div>
+                            <div class="title">
+                                <h3>Build 15 JavaScript Projects - Vanilla JavaScript Course</h3>
+                                <a href=""> freeCodeCamp.org </a>
+                                <span>470K Views • 8 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video__thumbnail">
+                            <img src="https://img.youtube.com/vi/CVClHLwv-4I/maxresdefault.jpg" alt="" />
+                        </div>
+                        <div class="video__details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/ytc/AAUvwnhIz_0Su6HhW6Ym50QCroJCAnF10X9xnnMDboN2=s48-c-k-c0x00ffffff-no-rj"
+                                    alt="" />
+                            </div>
+                            <div class="title">
+                                <h3>Build Real Time Face Detection With JavaScript</h3>
+                                <a href=""> Web Dev Simplified </a>
+                                <span>875K Views • 1 Year Ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="videos__container">
+                        <!-- Single Video starts -->
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <iframe id="iframe" src="https://www.youtube.com/embed/ao6X3-tjMOw?autoplay=1&mute=1"
+                                    title="Sarfira Khiladi (HD) - Romantic Full Movie | Vishnu Vishal, Catherine Tresa"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="unnamed.jpg" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>
+                                        Sarfira Khiladi (HD) - Romantic Full Movie | Vishnu Vishal, Catherine Tresa
+                                    </h3>
+                                    <a href="">AD-WISE MEDIA ACTION MOVIEPLEX </a>
+                                    <span>10M Views • 3 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="http://aninex.com/images/srvc/web_de_icon.png" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>
+                                        Top 5 Programming Languages to Learn in 2021 | Best Programming Languages to
+                                        Learn
+                                    </h3>
+                                    <a href="">FutureCoders</a>
+                                    <span>10M Views • 3 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/YpTmcCBBdTE/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="http://aninex.com/images/srvc/web_de_icon.png" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Build A Password Generator with React JS - Beginners Tutorial</h3>
+                                    <a href="">FutureCoders</a>
+                                    <span>10M Views • 3 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/46cXFUzR9XM/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnh53ZRIGnyzC28QrfuggCINb3cfNbNWo4Uc6qR9=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Bella Ciao Full Song | La Casa De Papel | Money Heist | Netflix India</h3>
+                                    <a href="">Netflix</a>
+                                    <span>10M Views • 11 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/d2na6sCyM5Q/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnhESPVEatju_1yE-03-KLeSrnSLc5yy0RcvhPd5Lg=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>DON'T EVER GIVE UP - Elon Musk (Motivational Video)</h3>
+                                    <a href=""> Chispa Motivation</a>
+                                    <span>10M Views • 1 Month Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/2Ji-clqUYnA/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwniaHN7MZyFEiNvdHuKMzIWnDF604Z2--O4GCMq-FA=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Javascript Fundamentals</h3>
+                                    <a href="">Coding Addict</a>
+                                    <span>179K • 8 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/3PHXvlpOkf4/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Build 15 JavaScript Projects - Vanilla JavaScript Course</h3>
+                                    <a href=""> freeCodeCamp.org </a>
+                                    <span>470K Views • 8 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/CVClHLwv-4I/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnhIz_0Su6HhW6Ym50QCroJCAnF10X9xnnMDboN2=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Build Real Time Face Detection With JavaScript</h3>
+                                    <a href=""> Web Dev Simplified </a>
+                                    <span>875K Views • 1 Year Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <iframe id="iframe" src="https://www.youtube.com/embed/F50EmsabWLc?autoplay=1&mute=1"
+                                    title="Intelligent Khiladi Hindi Dubbed Movie | Latest Hindi Dubbed Movie | Adivi Sesh, Sobhita Dhulipala"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="Line.jpg" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Intelligent Khiladi Hindi Dubbed Movie | Latest Hindi Dubbed Movie | Adivi Sesh,
+                                        Sobhita
+                                        Dhulipala</h3>
+                                    <a href="https://www.youtube.com/@LineFilms-mx5ji">
+                                        Line Films</a>
+                                    <span>976k Views • 1 Month Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/ulprqHHWlng/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>AWS Basics for Beginners - Full Course</h3>
+                                    <a href=""> freeCodeCamp.org </a>
+                                    <span>36K Views • 1 Day Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="http://aninex.com/images/srvc/web_de_icon.png" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>
+                                        Top 5 Programming Languages to Learn in 2021 | Best Programming Languages to
+                                        Learn
+                                    </h3>
+                                    <a href="">FutureCoders</a>
+                                    <span>10M Views • 3 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <iframe id="iframe" src="https://www.youtube.com/embed/F50EmsabWLc?autoplay=1&mute=1"
+                                    title="Intelligent Khiladi Hindi Dubbed Movie | Latest Hindi Dubbed Movie | Adivi Sesh, Sobhita Dhulipala"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="Line.jpg" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Intelligent Khiladi Hindi Dubbed Movie | Latest Hindi Dubbed Movie | Adivi Sesh,
+                                        Sobhita
+                                        Dhulipala</h3>
+                                    <a href="https://www.youtube.com/@LineFilms-mx5ji">
+                                        Line Films</a>
+                                    <span>976k Views • 1 Month Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/YpTmcCBBdTE/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="http://aninex.com/images/srvc/web_de_icon.png" alt="" />
+                                </div>
+                                <div class="title">
+                                    <ul>
+                                        <a href="password generator"><h3>Build A Password Generator with React JS - Beginners Tutorial</h3></a>
+                                    </ul>
+                                    
+                                    <a href="">FutureCoders</a>
+                                    <span>10M Views • 3 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/46cXFUzR9XM/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnh53ZRIGnyzC28QrfuggCINb3cfNbNWo4Uc6qR9=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Bella Ciao Full Song | La Casa De Papel | Money Heist | Netflix India</h3>
+                                    <a href="">Netflix</a>
+                                    <span>10M Views • 11 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <iframe id="iframe" src="https://www.youtube.com/embed/JkeiEYkLEvM?autoplay=1&mute=1"
+                                    title="Tutorial 2- How does Neural Network Work" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen autoplay=1&mute=1></iframe>
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="channels4_profile.jpg" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Tutorial 2- How does Neural Network Work</h3>
+                                    <a href="https://www.youtube.com/@krishnaik06"> Krish Naik</a>
+                                    <span>194k Views • 3 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/d2na6sCyM5Q/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnhESPVEatju_1yE-03-KLeSrnSLc5yy0RcvhPd5Lg=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>DON'T EVER GIVE UP - Elon Musk (Motivational Video)</h3>
+                                    <a href=""> Chispa Motivation</a>
+                                    <span>10M Views • 1 Month Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <iframe id="iframe" src="https://www.youtube.com/embed/JkeiEYkLEvM?autoplay=1&mute=1"
+                                    title="Tutorial 2- How does Neural Network Work" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen autoplay=1&mute=1></iframe>
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="channels4_profile.jpg" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3> <a href="Tutorial 2- How does Neural Network Work">Tutorial 2- How does Neural Network Work</a> </h3>
+                                    <a href="https://www.youtube.com/@krishnaik06"> Krish Naik</a>
+                                    <span>194k Views • 3 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/2Ji-clqUYnA/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwniaHN7MZyFEiNvdHuKMzIWnDF604Z2--O4GCMq-FA=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Javascript Fundamentals</h3>
+                                    <a href="">Coding Addict</a>
+                                    <span>179K • 8 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/3PHXvlpOkf4/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Build 15 JavaScript Projects - Vanilla JavaScript Course</h3>
+                                    <a href=""> freeCodeCamp.org </a>
+                                    <span>470K Views • 8 Months Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/CVClHLwv-4I/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnhIz_0Su6HhW6Ym50QCroJCAnF10X9xnnMDboN2=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>Build Real Time Face Detection With JavaScript</h3>
+                                    <a href=""> Web Dev Simplified </a>
+                                    <span>875K Views • 1 Year Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <div class="video__thumbnail">
+                                <img src="https://img.youtube.com/vi/ulprqHHWlng/maxresdefault.jpg" alt="" />
+                            </div>
+                            <div class="video__details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s48-c-k-c0x00ffffff-no-rj"
+                                        alt="" />
+                                </div>
+                                <div class="title">
+                                    <ul>
+                                        <li>
+                                            <a href="AWS Basics for Beginners - Full Course">AWS Basics for Beginners - Full Course</a>
+                                        </li>
+                                    </ul>
+                                    <a href=""> freeCodeCamp.org </a>
+                                    <span>36K Views • 1 Day Ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+
+            <script>
+                function myFunction() {
+                    var input, filter, ul, h3, a, i, p, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    h3 = ul.getElementsByTagName("h3");
+                    for (i = 0; i < h3.length; i++) {
+                        a = h3[i].getElementsByTagName("a")[0];
+                        txtValue = a.textContent || a.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            h3[i].style.display = "";
+                        } else {
+                            h3[i].style.display = "none";
+                        }
+                    }
+                }
+            </script>
+
+            <!-- Main Body Ends -->
+</body>
+
+</html>

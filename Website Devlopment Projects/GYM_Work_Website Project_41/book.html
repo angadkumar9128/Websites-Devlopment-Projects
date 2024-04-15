@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>booking</title>
+</head>
+<body>
+    <form action="reservation.php" method="post">
+        <div class="elem-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="visitor_name" placeholder="Juhi Chawla" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+            <label for="email">Your E-mail</label>
+            <input type="email" id="email" name="visitor_email" placeholder="juhi.chawla@email.com" required>
+        </div>
+        <div class="elem-group">
+            <label for="phone">Your Phone</label>
+            <input type="tel" id="phone" name="visitor_phone" placeholder="914-563-5896"
+                pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <hr>
+        <div class="elem-group inlined">
+            <label for="adult">Times in One Day</label>
+            <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+        </div>
+        <div class="elem-group inlined">
+            <label for="child">No. of Friends</label>
+            <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+        </div>
+        <div class="elem-group inlined">
+            <label for="checkin-date">Join Date</label>
+            <input type="date" id="checkin-date" name="checkin" required>
+        </div>
+        <div class="elem-group inlined">
+            <label for="checkout-date">Estimated Last Date</label>
+            <input type="date" id="checkout-date" name="checkout" required>
+        </div>
+        <div class="elem-group">
+            <label for="room-selection">Select the area</label>
+            <select id="room-selection" name="room_preference" required>
+                <option value="">Choose a place from the List</option>
+                <option value="connecting">Delhi</option>
+                <option value="adjoining">Banglore</option>
+                <option value="adjacent">Mumbai</option>
+            </select>
+        </div>
+        <hr>
+        <div class="elem-group">
+            <label for="message">Anything query ?</label>
+            <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important."
+                required></textarea>
+        </div>
+        <button type="submit">Book The Slots</button>
+    </form>
+
+   <script src="form.js"></script>
+</body>
+</html>

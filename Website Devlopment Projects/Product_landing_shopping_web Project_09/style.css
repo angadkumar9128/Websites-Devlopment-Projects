@@ -1,0 +1,163 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin-left:  6px;
+    padding-left: 16px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.product-details::after {
+    background-color: #f9f9f9;
+    content: "";
+    display: table;
+    clear: both;
+
+    /* width: %; */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    width: 60%;
+}
+
+.product-image {
+    width: 100%;
+}
+    /* Add styles for the product image */
+
+
+.product-description 
+{
+    word-wrap: break-word;
+    border-width: 50%;
+    
+}
+    
+    /* Add styles for the product description */
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* pre{
+    font-size: 16px;
+    color: black;
+    font-style:inherit;
+    flex-wrap: wrap;
+    text-align: center;
+    
+} */
+
+.features {
+    background-color: #f0f0f0;
+}
+
+.features ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #eee;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+
+
+/* this is page layout of divided section start */
+ 
+h3{
+    padding: 12px;
+    background-color: #333;
+    margin: 10px;
+    text-align: center;
+    color: #007bff;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  li{
+    font-size: 20px;
+    color: blue;
+    padding: 12pxpx;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+  /* this is page layout of divided section start */

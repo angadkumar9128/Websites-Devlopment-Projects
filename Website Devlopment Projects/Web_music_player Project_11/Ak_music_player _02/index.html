@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ak Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="music-player">
+        <h1>My Music Player</h1>
+        <input type="file" id="fileInput" accept="audio/*" multiple webkitdirectory />
+        <div class="playlist">
+            <ul id="playlistItems"></ul>
+        </div>
+        <div class="metadata">
+            <img id="albumCover" src="import { originalName as alias } from 'module';" alt="">
+            <p id="songTitle">Song Title</p>
+            <p id="artistAlbum">Artist - Album</p>
+        </div>
+        <div class="controls">
+            <button id="prevBtn">Prev</button>
+            <button id="playBtn">Play</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="nextBtn">Next</button>
+            <input type="range" id="seekBar" value="0" step="0.01">
+            <label for="volumeBar">Volume:</label>
+            <input type="range" id="volumeBar" min="0" max="1" step="0.01" value="1">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
